@@ -23,8 +23,7 @@ export XDG_DATA_HOME="$HOME/var"
 export MARKPATH=$HOME/.marks
 
 # Path
-export PATH=/usr/local/lib/cw /usr/local/libexec/ccache /home/immeeerkat/scripts /home/immeeerkat/bin /home/immeeerkat/.local/bin /usr/sbin /sbin /usr/local/bin /usr/bin /bin /usr/local/sbin /usr/local/games /usr/games
-
+export PATH=~/scripts:~/.local/bin:~/bin:~/snap/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/local/games:/usr/games
 
 # Source config files
 for r in $HOME/etc/zsh/*.zsh; do
